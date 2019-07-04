@@ -12,8 +12,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', function(req, res) {
-  res.send("hello world")
-  // res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.send("你好 world")
 });
 
 app.listen(9999, function() {

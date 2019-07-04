@@ -12,7 +12,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', function(req, res) {
-  res.send("你好 world32")
+  res.send("你好 world3211")
 });
 
 app.listen(9999, function() {
